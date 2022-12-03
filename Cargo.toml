@@ -8,5 +8,6 @@ default-run = "aoc2022"
 
 [dependencies]
 clap = { version = "4.0.29", features = ["derive"] }
+itertools = "0.10.5"
 lazy_static = "1.4.0"
 
