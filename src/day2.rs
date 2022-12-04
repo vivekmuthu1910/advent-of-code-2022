@@ -69,13 +69,11 @@ C Z"
 
     #[test]
     fn check_problem1() {
-        let output = "15";
-        assert_eq!(output, &problem1(gen_input()));
+        assert_eq!("15", &problem1(gen_input()));
     }
 
     #[test]
     fn check_problem2() {
-        let output = "12";
-        assert_eq!(output, &problem2(gen_input()));
+        assert_eq!("12", &problem2(gen_input()));
     }
 }

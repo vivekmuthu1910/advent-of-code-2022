@@ -47,13 +47,11 @@ mod tests {
     }
     #[test]
     fn check_problem1() {
-        let output = "24000";
-        assert_eq!(output, &problem1(gen_input()));
+        assert_eq!("24000", &problem1(gen_input()));
     }
 
     #[test]
     fn check_problem2() {
-        let output = "45000";
-        assert_eq!(output, &problem2(gen_input()));
+        assert_eq!("45000", &problem2(gen_input()));
     }
 }
